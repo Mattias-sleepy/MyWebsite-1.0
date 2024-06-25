@@ -41,11 +41,28 @@
         <source src="This game (instrumental).mp3">
     </audio>
 
+    <br>
+
     <form method="POST" action="fake.php">
-        <input type="text" name="name">
-        <input type="email" name="email">
-        <textarea name="message"></textarea>
-        <input type="submit" value="Send">
+        <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Firstname">
+        </div>
+
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Lastname">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="sleepy.head@gmail.com">
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message"></textarea>
+            <input type="submit" value="Send">
+        </div>
     </form>
 
 
