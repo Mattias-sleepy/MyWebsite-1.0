@@ -589,8 +589,9 @@
     .navigation_box {
         display: none;
     } 
-    .buy_box {
-       display: block;
+    .buy_box { 
+       display: block; 
+       font-family: serif;
     }
  }
 
