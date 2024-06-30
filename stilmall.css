@@ -588,7 +588,10 @@
     } 
     .navigation_box {
         display: none;
-    } 
+    }  
+    .picture_column {
+        display: none;
+    }
     .buy_box { 
        display: block; 
        font-family: serif; 
