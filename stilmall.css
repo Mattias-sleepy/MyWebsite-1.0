@@ -586,7 +586,7 @@
         display: none;
     } 
     .buy_box {
-        align-self: center;
+       display: block;
     }
  }
 
