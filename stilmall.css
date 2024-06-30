@@ -579,7 +579,7 @@
  } 
 
  @media print {
-    top_section {
+    .top_section {
         display: none;
     }
  }
