@@ -576,6 +576,12 @@
  .add_text {
      font-size: 28px;
      color: white;
+ } 
+
+ @media print {
+    top_section {
+        display: none;
+    }
  }
 
  /*----Shoppingcart page----*/
