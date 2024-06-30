@@ -580,7 +580,8 @@
 
  @media print { 
     .product_box {
-        flex-direction: column;
+        flex-direction: column; 
+        justify-content: center;
     }
     .top_section {
         display: none;
