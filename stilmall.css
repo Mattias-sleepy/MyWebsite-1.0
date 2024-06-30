@@ -591,7 +591,10 @@
     } 
     .buy_box { 
        display: block; 
-       font-family: serif;
+       font-family: serif; 
+    } 
+    .product_title {
+        font-size: 30px;
     }
  }
 
