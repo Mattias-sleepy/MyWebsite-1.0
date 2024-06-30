@@ -581,6 +581,9 @@
  @media print {
     .top_section {
         display: none;
+    } 
+    .navigation_box {
+        display: none;
     }
  }
 
