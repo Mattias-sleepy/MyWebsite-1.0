@@ -584,6 +584,9 @@
     } 
     .navigation_box {
         display: none;
+    } 
+    .buy_box {
+        align-self: center;
     }
  }
 
